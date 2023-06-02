@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Handlers\Customers\Update\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Validations\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FluentValidation.AspNetCore" Version="11.3.0" />
+    <PackageReference Include="MediatR" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TaskAssigmentApp.Domain\TaskAssigmentApp.Domain.csproj" />
+    <ProjectReference Include="..\TaskAssignmentApp.Infrastructure\TaskAssignmentApp.Infrastructure.csproj" />
+    <ProjectReference Include="..\TaskAssignmentApp.Persistance\TaskAssignmentApp.Persistance.csproj" />
+  </ItemGroup>
+
+</Project>
