@@ -3,7 +3,7 @@
   <PropertyGroup Label="Globals">
     <ProjectVersion>2.1</ProjectVersion>
     <DockerTargetOS>Linux</DockerTargetOS>
-    <ProjectGuid>17bb2027-d94d-49b7-aca2-24fe14ead6c4</ProjectGuid>
+    <ProjectGuid>e1fad098-e052-4741-a4c1-8ad92ef30d93</ProjectGuid>
     <DockerLaunchAction>LaunchBrowser</DockerLaunchAction>
     <DockerServiceUrl>{Scheme}://localhost:{ServicePort}/swagger</DockerServiceUrl>
     <DockerServiceName>taskassignmentappntier</DockerServiceName>
